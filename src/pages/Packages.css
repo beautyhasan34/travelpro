@@ -1,0 +1,94 @@
+.image-box {
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: #ff5722;
+    color: #fff;
+    padding: 6px 14px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.wish {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 42px;
+    height: 42px;
+    border: none;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.rating {
+    color: #ff9800;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 10px;
+}
+
+.location {
+    color: #666;
+    margin: 12px 0;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    font-size: 15px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    font-size: 14px;
+    color: #555;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.details {
+    padding: 10px 18px;
+    border: 2px solid #0d6efd;
+    background: #fff;
+    color: #0d6efd;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.book {
+    padding: 10px 20px;
+    background: #0d6efd;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.book:hover {
+    background: #003f9e;
+}
