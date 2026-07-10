@@ -31,10 +31,9 @@ function Booking() {
 
         try {
             const res = await axios.post(
-                "http://localhost:5000/api/bookings",
+                "https://travelpro-2-l3ki.onrender.com/api/bookings",
                 formData
             );
-
             if (res.data.success) {
                 alert("✅ Booking Successful");
                 navigate("/booking-success");
@@ -135,7 +134,7 @@ function Booking() {
                     </div>
 
 
-                       
+
 
                     <div className="input-box">
                         <label>Payment Method</label>
